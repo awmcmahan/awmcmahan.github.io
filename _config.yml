@@ -1,0 +1,17 @@
+# Site settings
+title: "Aaron McMahan"
+logo: logo.png # image from https://www.flickr.com/photos/lwr/5496279831/in/set-72157594159055823
+email: awmcmahan@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, my name is Aaron. I am a Network Specialist for a local K-8 school district, open source enthusist and slight coffee addict.
+
+gems: [jekyll-paginate, github-pages]
+paginate: 5
+paginate_path: "page:num"
+url: "http://aaronmcmahan.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: awmcmahan
+github_username:  awmcmahan
+
+# Build settings
+markdown: redcarpet
